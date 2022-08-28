@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        /*codigo fonte externa*/
+        @font-face {
+            font-family: 'Love';
+            src: url('fontes/I\ Found\ My\ Valentine\ -\ OTF.otf'), url('fontes/I\ Found\ My\ Valentine\ -\ TTF.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        /* url('I\ Found\ My\ Valentine\ Hearted\ -\ OTF.otf') format(opentype);
+            colocar dois formatos*/
+            
+            /* tipos de format
+            - opentype (otf)-esse funcionou
+            - truetype (ttf)-esse funcionou.
+            - embedded-opentype ()
+            - truetype-aat
+            - svg */
+        
+       
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            font-family: 'Love', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto totam provident, rem quae asperiores, id enim delectus libero quibusdam, et voluptas facere officiis ut! Dolor vero perferendis exercitationem eligendi harum.</p>
+</body>
+</html>

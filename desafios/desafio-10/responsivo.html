@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Responsividade</title>
+
+    <style>
+        body {
+            background-color: grey;
+        }
+
+        main {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+
+            min-width: 320px; /*celulares pequenos*/
+            max-width: 808px;
+            margin: auto; /*centraliza o doc*/
+        }
+
+        img {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Testando Responsividade</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione at enim, eos id earum facere quas doloremque harum eligendi, quam possimus dicta maiores autem accusamus, temporibus sunt! Ab, veniam inventore? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas ad asperiores sed libero quae! Rem accusamus inventore enim, magnam quasi reprehenderit dolorem minima obcaecati, quos natus numquam voluptates possimus accusantium.</p>
+       
+        <picture><!--aqui trabalha com duas imagens deixando responsivo-->
+            <source media="(max-width: 570px)" srcset="imagens/irina-blok-pq.jpg">
+            <img src="imagens/irina-blok.jpg" alt="Irina Blok">
+        </picture>
+       
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione at enim, eos id earum facere quas doloremque harum eligendi, quam possimus dicta maiores autem accusamus, temporibus sunt! Ab, veniam inventore? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas ad asperiores sed libero quae! Rem accusamus inventore enim, magnam quasi reprehenderit dolorem minima obcaecati, quos natus numquam voluptates possimus accusantium.</p>
+    </main>
+</body>
+</html>
